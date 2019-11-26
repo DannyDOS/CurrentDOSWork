@@ -1,0 +1,544 @@
+<style>
+  /*
+
+     Author:   Jack R
+     Date:     07/10/2019
+     Version:  0.9.5
+
+  */
+
+  body {
+    font-family: 'Work Sans', sans-serif, Arial;
+    font-size: 16px;
+    color: #4d4a49;
+  }
+
+  .list-outside {
+    list-style-position: outside;
+  }
+
+  .border-grey {
+    border: solid 1px #dedcdc;
+  }
+
+  .card--hover-teal:hover *,
+  .card--hover-teal:hover .card__label--slant:after {
+    background: #005D6E;
+    color: #fff
+  }
+
+  .card__label--slant {
+    z-index: 10;
+  }
+
+  .card__label--slant:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 28px;
+    background: #fff;
+    left: -16px;
+    bottom: 0;
+    -webkit-transform: skewX(-8deg);
+    -ms-transform: skewX(-8deg);
+    transform: skewX(-8deg);
+    z-index: -1
+  }
+
+  .grid {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    margin-bottom: 1em;
+    row-gap: 10px;
+}
+
+@media (min-width: 768px) {
+    .grid-md-3 {
+        -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+  @media only screen and (min-width: 1294px) {
+
+    .card__label--slant:after {
+      left: -60px;
+    }
+
+  }
+</style>
+<!-- Begin HTML Markup for page content -->
+
+<div class="mx-0">
+    <h2 class="font-24 font-md-46 mt-2 font-weight-4">Arbeitsplatten leicht gemacht</h2>
+    <h4 class="font-18 font-md-26 mt-3 font-weight-4">3 einfache Schritte</h4>
+    <p class="col-md-10 col-xl-8 mt-2 p-0">Bei Worktop Express wissen wir, wie stressig jede Renovierungsarbeit sein kann. Deshalb konzentrieren wir uns darauf, jeden Schritt unserer Kunden beim Kauf
+    einer Arbeitsplatte so leicht wie m&ouml;glich zu gestalten.</p>
+    <div class="d-block d-md-none mt-3">
+    <h5 class="font-18 font-weight-5">Alle Vorteile auf einen Blick:</h5>
+    <ol class="p-0 colour-green">
+        <li class="ml-4 mt-2 list-outside"><a href="/arbeitsplatten-leicht-gemacht#sectionOne" class="d-block ml-2 underline">W&auml;hlen Sie Ihre Arbeitsplatte</a></li>
+        <li class="ml-4 mt-2 list-outside"><a href="/arbeitsplatten-leicht-gemacht#sectionTwo" class="d-block ml-2 underline">Lassen Sie sie nach Ma&szlig; anpassen</a></li>
+        <li class="ml-4 mt-2 list-outside"><a href="/arbeitsplatten-leicht-gemacht#sectionThree" class="d-block ml-2 underline">Lieferung bis in den Raum Ihrer Wahl</a></li>
+    </ol>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Section 1. -->
+
+<h3 id="sectionOne" class="font-20 font-md-24 mt-5 font-weight-6">1. W&auml;hlen Sie Ihre Arbeitsplatte</h3>
+
+
+<div class="grid grid-md-3">
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/einzigartiges-sortiment-an-holzarbeitsplatten.jpg" data-at2x="/media/gbu0/einzigartiges-sortiment-an-holzarbeitsplatten@2x.jpg" alt="Einzigartiges Sortiment an Holzarbeitsplatten" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Einzigartiges Sortiment an Holzarbeitsplatten</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Mehr als 20 verschiedene Holzplattenarten</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Beschr&auml;nkte Auswahl</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/ausseergewohnliche-qualitaet.jpg" data-at2x="/media/gbu0/ausseergewohnliche-qualitaet@2x.jpg" alt="Au&szlig;ergew&ouml;hnliche Qualit&auml;t" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Au&szlig;ergew&ouml;hnliche Qualit&auml;t</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Holz der besten Qualit&auml;t</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Oftmals G&uuml;terklasse C</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/grossee-auswahl-an-groesseen-bestellbar.jpg" data-at2x="/media/gbu0/grossee-auswahl-an-groesseen-bestellbar@2x.jpg" alt="Gro&szlig;e Auswahl an Gr&ouml;&szlig;en bestellbar" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Gro&szlig;e Auswahl an Gr&ouml;&szlig;en bestellbar</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Vielzahl an Größen erhältlich (inkl. Ikea kompatibel)</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Schwer zug&auml;nglich &amp; nur mit Hilfe k&auml;uflich</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/12mm-duenne-compact-arbeitsplatten.jpg" data-at2x="/media/gbu0/12mm-duenne-compact-arbeitsplatten@2x.jpg" alt="12 mm d&uuml;nne Compact Arbeitsplatten" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">12 mm d&uuml;nne Compact Arbeitsplatten</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Premium Arbeitsplatten aus Kompaktlaminat</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Nicht erh&auml;ltlich</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/genauer-ueberblick-ueber-produkte-und-service.jpg" data-at2x="/media/gbu0/genauer-ueberblick-ueber-produkte-und-service@2x.jpg" alt="Genauer &Uuml;berblick &uuml;ber Produkte und Service" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Genauer &Uuml;berblick &uuml;ber Produkte und Service</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+            <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Alle Infos online auf einen Blick</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Infomaterial kaum bis gar nicht verf&uuml;gbar</div>
+        </div>
+
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/online-muster-service.jpg" data-at2x="/media/gbu0/online-muster-service@2x.jpg" alt="Online Muster-Service" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Online Muster-Service</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+            <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Sehen & testen Sie unsere Qualit&auml;t vor Ihrem Einkauf</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+            <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Nicht erh&auml;ltlich</div>
+        </div>
+    </div>
+    
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/nachhaltigkeit-umweltschutz.jpg" data-at2x="/media/gbu0/nachhaltigkeit-umweltschutz@2x.jpg" alt="Nachhaltigkeit &amp; Umweltschutz" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Nachhaltigkeit &amp; Umweltschutz</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-blugreen col-2">
+            <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Alle Hölzer stammen aus nachhaltigem Anbau und wir folgen der EU-Holzhandelsverordnung (EUTR).</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Section 2 -->
+ 
+<h3 id="sectionTwo" class="font-20 font-md-24 mt-5 font-weight-6">2. Lassen Sie sie nach Ma&szlig; anpassen</h3>
+
+<div class="grid grid-md-3">
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/breites-angebot-an-masseanfertigungsoptionen.png" data-at2x="/media/gbu0/breites-angebot-an-masseanfertigungsoptionen@2x.png" alt="Breites Angebot an Ma&szlig;anfertigungsoptionen" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Breites Angebot an Ma&szlig;anfertigungs<span class="d-none d-md-inline d-xl-none">-</span>optionen</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">&Uuml;ber 10 verschiedene Optionen f&uuml;r alle Arbeitsplattenarten</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Meist nur wenige Standard-Optionen</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/preiswerter-fertigungsservice.jpg" data-at2x="/media/gbu0/preiswerter-fertigungsservice@2x.jpg" alt="G&uuml;nstiger Fertigungsservice" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">G&uuml;nstiger Fertigungsservice</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">25% Rabatt auf alle Dienstleistungen im Arbeitsplatten-Konfigurator</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Kein Rabatt</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/hoechste-qualitaet--praezesion.jpg" data-at2x="/media/gbu0/hoechste-qualitaet--praezesion@2x.jpg" alt="H&ouml;chste Qualit&auml;t &amp; Pr&auml;zesion" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">H&ouml;chste Qualit&auml;t &amp; Pr&auml;zision</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Ein erfahrenes Fertigungsteam arbeitet mit modernsten Maschinen und gr&ouml;&szlig;ter Pr&auml;zision</div>
+        </div>
+    </div>
+</div>
+ 
+
+
+
+
+
+
+
+<!-- Section 3. -->
+
+<h3 id="sectionThree" class="font-20 font-md-24 mt-5 font-weight-6">3. Lieferung bis in den Raum Ihrer Wahl</h3>
+
+<div class="grid grid-md-3">
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/zuverlaessiger-und-sicherer-lieferservice.jpg" data-at2x="/media/gbu0/zuverlaessiger-und-sicherer-lieferservice@2x.jpg" alt="Zuverl&auml;ssiger und sicherer Lieferservice" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Zuverl&auml;ssiger und sicherer Lieferservice</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Lieferung in den Raum Ihrer Wahl</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Lieferung bis zur Bordsteinkante</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/zwei-mann-service.jpg" data-at2x="/media/gbu0/zwei-mann-service@2x.jpg" alt="2-Mann Service" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">2-Mann Service</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Komfortable und eigenständige Auslieferung</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-red col-10">Hilfe beim Tragen der Ware notwendig</div>
+        </div>
+    </div>
+
+    <div class="background-grey border-grey">
+        <img src="/media/gbu0/ausgezeichneter-kundenservice.jpg" data-at2x="/media/gbu0/ausgezeichneter-kundenservice@2x.jpg" alt="Ausgezeichneter Kundenservice" class="w-100" />
+        <h5 class="font-18 p-2 mb-1 font-weight-5">Ausgezeichneter Kundenservice</h5>
+        <div class="p-2">Worktop Express:</div>
+        <div class="d-flex">
+            <div class="p-2 colour-blugreen col-2">
+                <i class="font-24 far fa-smile"></i>
+            </div>
+            <div class="pl-0 pt-2 colour-blugreen col-10">Hilfsbereites und kompetentes Personal</div>
+        </div>
+        <div class="p-2">Baumarkt:</div>
+        <div class="d-flex mb-3">
+            <div class="p-2 colour-red col-2">
+                <i class="font-24 far fa-frown"></i>
+            </div>
+            <div class="pl-0 pt-2 mb-3 colour-red col-10">Langes Warten auf Auskunft</div>
+        </div>
+    </div>
+</div>
+   
+
+
+
+
+
+
+
+
+
+
+    <!-- Review Section. -->
+    <div class="py-4 mb-4 mx-0 background-grey">
+      <h4 class="font-22 ta-c mb-3 mx-2 colour-grey6 font-weight-5">Zahlreiche 5 – Sterne Bewertungen spiegeln die Zufriedenheit unserer Kunden wider:</h4>
+      <div class="d-flex flex-wrap justify-content-center py-2">
+        <div class="col-md-5 col-xl-4 mb-2 ta-c">
+          <a href="https://de.trustpilot.com/review/worktop-express.de" target="_blank">
+            <img src="/media/gbu0/trustpilot-homepage-image.png" data-at2x="/media/gbu0/trustpilot-homepage-image@2x.png" alt="Trustpilot" width="206" height="98">
+            <div class="trustpilot-widget-splash" data-locale="de-DE" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="536b79a2000064000578b70e" data-style-height="38px" data-style-width="100%" data-theme="light"
+              style="position: relative;">
+              <iframe frameborder="0" scrolling="no" title="Customer reviews powered by Trustpilot"
+                src="https://widget.trustpilot.com/trustboxes/5419b6a8b0d04a076446a9ad/index.html?templateId=5419b6a8b0d04a076446a9ad&amp;businessunitId=536b79a2000064000578b70e#locale=de-DE&amp;styleHeight=38px&amp;styleWidth=100%25&amp;theme=light"
+                style="position: relative; height: 38px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>
+            </div>
+          </a>
+          <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async=""></script>
+        </div>
+        <div class="col-md-5 col-xl-4">
+          <!-- TRUSTED SHOPS WIDGET !! DONT TRY TO ORGANISE THE BELOW, IT WILL BREAK :) -->
+          <div id="MyCustomTrustbadge" class="pt-3 trusted-shops-badge" style="text-align:center;">
+            <div id="tsbadge_db8d3657bdbe440c985ae127463eaad4" data-shopname="Worktop Express®"
+              class="ts-badge-custom_db8d3657bdbe440c985ae127463eaad4 ts-badge-custom_db8d3657bdbe440c985ae127463eaad4--custom_reviews tb-clickable_db8d3657bdbe440c985ae127463eaad4" style="width: 180px;">
+              <div id="tsCustomBadge4_db8d3657bdbe440c985ae127463eaad4" data-tb-element="trustbadge_minimised_custom_container" style="width: 180px; height: 90px;">
+                <div id="ContentCustomBadge_db8d3657bdbe440c985ae127463eaad4" class="contentCustomBadge_db8d3657bdbe440c985ae127463eaad4">
+                  <div class="displayTableRow_db8d3657bdbe440c985ae127463eaad4">
+                    <div id="TrustmarkBlockCustomBadge_db8d3657bdbe440c985ae127463eaad4" style="padding-top: 3.46154px; font-size: 15px;">
+                      <div id="TrustmarkImageCustomBadge_db8d3657bdbe440c985ae127463eaad4" data-tb-element="trustbadge_minimised_custom_container" style="width: 57.6923px; height: 57.6923px;"></div>
+                    </div>
+                    <div class="ts-badge-custom-reviews_db8d3657bdbe440c985ae127463eaad4__separator"></div>
+                    <div id="ReviewsBlockCustomBadge_db8d3657bdbe440c985ae127463eaad4" data-tb-element="trustbadge_minimised_custom_reviews_container">
+                      <div class="ts-stars-wrapper" id="ts-stars-wrapper_db8d3657bdbe440c985ae127463eaad4" style="margin-bottom: 5.76923px; margin-top: 5.76923px; width: 86.5385px; height: 13.8462px;">
+                        <div class="ts-stars-emptyBar" style="width:100%;"><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-empty" style="font-size: 115.385%; margin-left: 2.30769px;"></i><i
+                            class="icon_db8d3657bdbe440c985ae127463eaad4-star-empty" style="font-size: 115.385%; margin-left: 2.30769px;"></i><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-empty"
+                            style="font-size: 115.385%; margin-left: 2.30769px;"></i><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-empty" style="font-size: 115.385%; margin-left: 2.30769px;"></i><i
+                            class="icon_db8d3657bdbe440c985ae127463eaad4-star-empty" style="font-size: 115.385%; margin-left: 2.30769px;"></i></div>
+                        <div class="ts-stars-fullBar" style="width:94.6%;"><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-full" style="font-size: 115.385%; margin-left: 2.30769px;"></i><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-full"
+                            style="font-size: 115.385%; margin-left: 2.30769px;"></i><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-full" style="font-size: 115.385%; margin-left: 2.30769px;"></i><i
+                            class="icon_db8d3657bdbe440c985ae127463eaad4-star-full" style="font-size: 115.385%; margin-left: 2.30769px;"></i><i class="icon_db8d3657bdbe440c985ae127463eaad4-star-full"
+                            style="font-size: 115.385%; margin-left: 2.30769px;"></i></div>
+                      </div>
+                      <div id="MarkInWordsCustomBadge_db8d3657bdbe440c985ae127463eaad4" style="margin-bottom: 2.30769px; font-size: 115.385%;">Sehr gut</div>
+                      <div id="MarkCustomBadge_db8d3657bdbe440c985ae127463eaad4" style="font-size: 115.385%;">4.73/5.00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="trustbadge-custom-footer_db8d3657bdbe440c985ae127463eaad4">
+                  <div id="BottomSlantCustomBadge_db8d3657bdbe440c985ae127463eaad4" class="etrusted-custom__brand" style="height: 24.2308px; border-bottom: 24.2308px solid rgb(255, 220, 15); font-size: 11px;">
+                    <div class="trustbadge-custom-footer_db8d3657bdbe440c985ae127463eaad4__sub-text etrusted-custom__text" style="margin-top: 6.92308px; margin-left: 5.76923px; font-size: 115.385%;">Zertifizierter Shop</div>
+                    <div class="trustbadge-custom-footer_db8d3657bdbe440c985ae127463eaad4__logo" style="margin-bottom: 3.46154px; margin-right: 5.76923px; font-size: 14px; bottom: -26.5385px;"><span
+                        class="icon_db8d3657bdbe440c985ae127463eaad4 icon_db8d3657bdbe440c985ae127463eaad4-e-logo trustbadge-custom-footer_db8d3657bdbe440c985ae127463eaad4__logo-icon  etrusted-custom__text" style="font-size: 115.385%;"></span></div>
+                    <svg width="100%" height="20" viewBox="0 0 10 5" preserveAspectRatio="none" style="margin-top: -2px">
+                      <polygon fill="#ffffff" stroke-width="0" points="0,1.5 0,0 10,0 16,0"></polygon>
+                    </svg>
+                  </div>
+                  <div id="TriangleCustomBadge_db8d3657bdbe440c985ae127463eaad4" style="right: 27.6923px; bottom: 13.8462px; border-width: 0px 13.8462px 13.8462px 0px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product Section. -->
+    <div class="ta-c mx-0 my-4">
+      <h1 class="font-26 font-md-36 mb-2 font-weight-4">Finden Sie Ihre perfekte Arbeitsplatte noch heute!</h1>
+      <a class="font-14 px-5 py-2 my-3 button button--green" href="kuechenarbeitsplatten">Jetzt einkaufen</a>
+    </div>
+    <!-- ------------------------------
+
+   ROWS BELOW TAKEN FROM NEW HOMEPAGE.
+
+   ---------------------------------->
+    <!-- 4x cards section -->
+    <div class="row-bs mx-md-0 mb-4">
+      <div class="col-md-6 py-2 px-md-0">
+        <div class="card card--full card--hover-teal">
+          <a href="/massivholzarbeitsplatten.html">
+            <div class="d-flex">
+              <div class="abso-center col-4 p-0">
+                <img class="abso-center__item" src="/media/gbu0/massivholz-arbeitsplatten-prop-page-card.jpg" data-at2x="/media/gbu0/massivholz-arbeitsplatten-prop-page-card@2x.jpg" alt="Solid Wood Worktops">
+              </div>
+              <div class="card__label card__label--slant p-1 background-white font-20 font-weight-5 text-center d-flex flex-wrap align-items-center justify-content-center text-transform-none">
+                <div>
+                  <div class="font-20 font-weight-6 mb-2 mb-xl-2 text-lg-left pl-lg-4">Massivholz Arbeitsplatten</div>
+                  <div class="font-14 underline colour-teal mt-2 mb-2 mt-xl-2 text-lg-left pl-lg-4">Auswahl ansehen</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 py-2 pl-md-3 pr-md-0">
+        <div class="card card--full card--hover-teal">
+          <a href="/laminat-arbeitsplatten">
+            <div class="d-flex">
+              <div class="abso-center col-4 p-0">
+                <img class="abso-center__item" src="/media/gbu0/laminat-arbeitsplatten-prop-page-card.jpg" data-at2x="/media/gbu0/laminat-arbeitsplatten-prop-page-card@2x.jpg" alt="Laminate Worktops">
+              </div>
+              <div class="card__label card__label--slant p-1 background-white font-20 font-weight-5 text-center d-flex flex-wrap align-items-center justify-content-center text-transform-none">
+                <div>
+                  <div class="font-20 font-weight-6 mb-2 mb-xl-2 text-lg-left pl-lg-4">Laminat Arbeitsplatten</div>
+                  <div class="font-14 underline colour-teal mt-2 mb-2 mt-xl-2 text-lg-left pl-lg-4">Auswahl ansehen</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 py-2 px-md-0">
+        <div class="card card--full card--hover-teal">
+          <a href="/compact-arbeitsplatten">
+            <div class="d-flex">
+              <div class="abso-center col-4 p-0">
+                <img class="abso-center__item" src="/media/gbu0/compact-arbeitsplatten-prop-page-card.jpg" data-at2x="/media/gbu0/compact-arbeitsplatten-prop-page-card@2x.jpg" alt="Solid Laminate Worktops">
+              </div>
+              <div class="card__label card__label--slant p-1 background-white font-20 font-weight-5 text-center d-flex flex-wrap align-items-center justify-content-center text-transform-none">
+                <div>
+                  <div class="font-20 font-weight-6 mb-2 mb-xl-2 text-lg-left pl-lg-4">Compact Arbeitsplatten</div>
+                  <div class="font-14 underline colour-teal mt-2 mb-2 mt-xl-2 text-lg-left pl-lg-4">Auswahl ansehen</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6 py-2 pr-md-0">
+        <div class="card card--full card--hover-teal">
+          <a href="/arbeitsplatten-bildergalerie/arbeitsplatten-nach-mass-bildergalerie">
+            <div class="d-flex">
+              <div class="abso-center col-4 p-0">
+                <img class="abso-center__item" src="/media/gbu0/arbeitsplatten-nach-mass-prop-card.jpg" data-at2x="/media/gbu0/arbeitsplatten-nach-mass-prop-card@2x.jpg" alt="Bespoke Worktops">
+              </div>
+              <div class="card__label card__label--slant p-1 background-white font-20 font-weight-5 text-center d-flex flex-wrap align-items-center justify-content-center text-transform-none">
+                <div>
+                  <div class="font-20 font-weight-6 mb-2 mb-xl-2 text-lg-left pl-lg-4">Arbeitsplatten nach Maß</div>
+                  <div class="font-14 underline colour-teal mt-2 mb-2 mt-xl-2 text-lg-left pl-lg-4">Mehr erfahren</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- 3x round cards section  -->
+    <div class="row-bs mx-md-0 background-grey">
+      <a class="col-md-4 text-center px-1 px-lg-4 py-3 cta d-flex flex-wrap justify-content-center align-items-start" href="/arbeitsplatten-planungstool">
+        <img class="cta__img border-circle mb-3" src="skins/skin2019_redesign_home_new/media/arbeitsplatten-planungstool-musterservice.jpg" alt="Gestalten Sie Ihre Traumküche">
+        <div class="col-12-bs font-18 font-weight-5">Arbeitsplatten-Visualisierer</div>
+        <p class="d-none d-xl-block my-3">Finden Sie die perfekte Arbeitsplatte.</p>
+        <div class="button button--green align-self-end my-2 col-10 col-xl-8">K&uuml;che entwerfen</div>
+      </a>
+      <a class="col-md-4 text-center px-1 px-lg-4 py-3 cta d-flex flex-wrap justify-content-center align-items-start" href="/kuechenarbeitsplatte-muster">
+        <img class="cta__img border-circle mb-3" src="skins/skin2019_redesign_home_new/media/sample-pack-wex-de.jpg" alt="Bestellen Sie Muster">
+        <div class="col-12-bs font-18 font-weight-5">Bestellen Sie Muster</div>
+        <p class="d-none d-xl-block my-3">&Uuml;berzeugen Sie sich von der Qualit&auml;t unserer Produkte.</p>
+        <div class="button button--green align-self-end my-2 col-10 col-xl-8">Muster bestellen</div>
+      </a>
+      <a class="col-md-4 text-center px-1 px-lg-4 py-3 cta d-flex flex-wrap justify-content-center align-items-start" href="/arbeitsplatten-konfigurator">
+        <img class="cta__img border-circle mb-3" src="skins/skin2019_redesign_home_new/media/arbeitsplatten-konfigurator-new-homepage.jpg" alt="Arbeitsplatte nach Maß gestalten">
+        <div class="col-12-bs font-18 font-weight-5">Arbeitsplatte nach Ma<span class="lowercase">&szlig;</span> Gestalten</div>
+        <p class="d-none d-xl-block my-3">Entwerfen, Preis und bestellen Sie Ihre Arbeitsplatte.</p>
+        <div class="button button--green align-self-end my-2 col-10 col-xl-8">Arbeitsplatte gestalten</div>
+      </a>
+    </div>
